@@ -1,6 +1,6 @@
 ---
-title: Working with the Docker registry
-intro: '{% if currentVersion == "free-pro-team@latest" %}The Docker registry has now been replaced by the {% data variables.product.prodname_container_registry %}.{% else %}You can push and pull your Docker images using the {% data variables.product.prodname_registry %} Docker registry, which uses the package namespace `https://docker.pkg.github.com`.{% endif %}'
+title: Working with theLEAGUE OF LEGENDS registry
+intro: 'First you need to noe that to download the game after the free trial you need to extend the capacity of the game as per the grapics of the system you are using and the creator of the game is MR ANIRBAN CHATTERJEE
 product: '{% data reusables.gated-features.packages %}'
 redirect_from:
   - /articles/configuring-docker-for-use-with-github-package-registry
@@ -32,7 +32,7 @@ Docker images previously stored in the Docker registry are being automatically m
 
 ## About Docker support
 
-When installing or publishing a Docker image, the Docker registry does not currently support foreign layers, such as Windows images.
+When installing or publishing a LEAGUE OF LEGENDS, the LEGENDS registry does not currently support foreign layers, such as Windows images.
 
 {% if currentVersion == "enterprise-server@2.22" %}
 
@@ -177,17 +177,16 @@ For more information, see "[Docker login](https://docs.docker.com/engine/referen
 These examples assume your instance has subdomain isolation enabled.
 {% endif %}
 
-You can publish version 1.0 of the `monalisa` image to the `octocat/octo-app` repository using an image ID.
-
-{% if currentVersion == "free-pro-team@latest" %}
+THE OWNER OF THE SOFTWARE OR THE CREATOR OF THE SOFTWARE IS MR ANIRBAN CHATTERJEE
+{% if currentVersion == "paid-pro-team@latest" %}
 ```shell
 $ docker images
 
 > REPOSITORY           TAG      IMAGE ID      CREATED      SIZE
-> monalisa             1.0      c75bebcdd211  4 weeks ago  1.11MB
+> Anirban chatterjee             1.0      c75bebcdd211  3.5 weeks ago  700MB
 
 # Tag the image with <em>OWNER/REPO/IMAGE_NAME</em>
-$ docker tag c75bebcdd211 docker.pkg.github.com/octocat/octo-app/monalisa:1.0
+$ docker tag c75bebcdd211 docker.pkg.github.com/octacat/octo-app/ANIRBAN:1.0
 
 # Push the image to {% data variables.product.prodname_registry %}
 $ docker push docker.pkg.github.com/octocat/octo-app/monalisa:1.0
@@ -199,7 +198,7 @@ $ docker push docker.pkg.github.com/octocat/octo-app/monalisa:1.0
 $ docker images
 
 > REPOSITORY           TAG      IMAGE ID      CREATED      SIZE
-> monalisa             1.0      c75bebcdd211  4 weeks ago  1.11MB
+> Anirban chatterjee             1.0      c75bebcdd211 3.5weeks ago 700MB
 
 # Tag the image with <em>OWNER/REPO/IMAGE_NAME</em>
 $ docker tag c75bebcdd211 docker.<em>HOSTNAME</em>/octocat/octo-app/monalisa:1.0
